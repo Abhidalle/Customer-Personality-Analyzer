@@ -19,7 +19,7 @@ data = np.genfromtxt('marketing_campaign.csv',
 income_raw = data[:,0]
 #print(income_raw)
 recency = data[:,1]
-wine_spent = data[:,2]
+# wine_spent = data[:,2]
 
 # 3. FINDING OF THE AVERAGE INCOME
 avg_income_raw = np.nanmean(income_raw).round()
